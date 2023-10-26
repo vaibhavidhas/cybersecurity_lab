@@ -1,0 +1,25 @@
+.swiperConatiner .swiper {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: aliceblue;
+}
+
+.swiperConatiner .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 225px;
+}
+
+.swiperConatiner .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+@media screen and (max-width:500px){
+    .swiperConatiner .swiper-slide {
+            width: 300px;
+            height: 200px;
+        }
+
+}
