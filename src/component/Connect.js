@@ -65,8 +65,12 @@ const Connect = () => {
                 <div className="connectbutton2">
                   <h6>
                     {" "}
-                    Know more{" "}
-                    <AiOutlineArrowRight size={15} style={{ color: "white" }} />
+                    Know more
+                    <AiOutlineArrowRight
+                      size={15}
+                      style={{ color: "white" ,padding:"2px"}}
+                      id="small"
+                    />
                   </h6>
                 </div>
               </Link>
