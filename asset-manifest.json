@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cybersecurity_lab/static/css/main.33b15026.css",
+    "main.css": "/cybersecurity_lab/static/css/main.e451c69f.css",
     "main.js": "/cybersecurity_lab/static/js/main.8d9c9ba1.js",
     "static/media/Image5.JPG": "/cybersecurity_lab/static/media/Image5.504ca8471d1b1c700f80.JPG",
     "static/media/Image8.JPG": "/cybersecurity_lab/static/media/Image8.c6a3647d141291e47f4e.JPG",
@@ -27,11 +27,11 @@
     "static/media/ResearchImage1.jpeg": "/cybersecurity_lab/static/media/ResearchImage1.ae0d8bfde5a5910d5ea6.jpeg",
     "static/media/cardImg.jpeg": "/cybersecurity_lab/static/media/cardImg.f1a61a376b6cdc61e066.jpeg",
     "index.html": "/cybersecurity_lab/index.html",
-    "main.33b15026.css.map": "/cybersecurity_lab/static/css/main.33b15026.css.map",
+    "main.e451c69f.css.map": "/cybersecurity_lab/static/css/main.e451c69f.css.map",
     "main.8d9c9ba1.js.map": "/cybersecurity_lab/static/js/main.8d9c9ba1.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b15026.css",
+    "static/css/main.e451c69f.css",
     "static/js/main.8d9c9ba1.js"
   ]
 }
