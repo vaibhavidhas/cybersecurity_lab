@@ -178,26 +178,8 @@
     transition: box-shadow 0.2s ease-in;
 }
 
-@media screen and (max-width:768px) {}
 
-
-@media screen and (max-width:576px) {
-    .connectContainer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .connectImg img {
-        min-height: 100%;
-        max-width: 100%;
-        margin: 30px 0px;
-    }
-
-}
-
-
-@media screen and (min-width:320px) and (max-width:479){
+@media screen and (min-width:320px) and (orientation:portrait){
     .connectContainer {
         width: 100%;
         display: flex;
@@ -264,7 +246,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:481px) {
 
     .connectContainer {
         width: 100%;
@@ -332,3 +314,74 @@
     }
 
 }
+
+@media screen and (max-width:768px) {
+    .connectContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .connectImg img {
+            min-height: 100%;
+            max-width: 100%;
+            padding: 10px;
+        }
+    
+        .connectContent2 p {
+            padding: 40px 30px 0px 30px;
+            font-size: 8px;
+        }
+    
+        .connectbutton2 {
+            height: 30px;
+            width: 65px;
+            padding: 0%;
+        }
+    
+        .content2Container {
+            margin: 0px 40px;
+            height: 250px;
+        }
+    
+        .connectLink2 h6 {
+            font-size: 7px;
+            padding: 5px;
+            font-weight: 100;
+        }
+    
+        .connectBkgImg {
+            width: 100%;
+            height: 350px;
+        }
+    
+        .connectImg {
+            margin: 0px;
+        }
+    
+        .connectAboutUs {
+            padding: 50px 50px;
+        }
+    
+        .connectAboutUs p {
+            font-size: 12px;
+        }
+    
+        .connectAboutUs h1 {
+            font-weight: 300;
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+    
+        .connectLink2 {
+            padding: 20px;
+        }
+    
+
+}
+
+@media screen and (max-width:961px) {}
+
+@media screen and (max-width:1025px) {}
+
+@media screen and (max-width:1281px) {}
