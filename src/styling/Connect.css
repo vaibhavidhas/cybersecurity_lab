@@ -304,6 +304,7 @@
 
     .connectAboutUs p {
         font-size: 12px;
+        font-weight: 200;
     }
 
     .connectAboutUs h1 {
@@ -332,8 +333,8 @@
     }
 
     .connectContent2 p {
-        padding: 40px 30px 0px 30px;
-        font-size: 13px;
+        padding: 40px 40px 0px 40px;
+        font-size: 12px;
     }
 
     .connectbutton2 {
@@ -345,7 +346,7 @@
     .connectLink2 h6 {
         font-size: 7px;
         padding: 5px;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .connectBkgImg img {
@@ -364,6 +365,7 @@
 
     .connectAboutUs p {
         font-size: 12px;
+        font-weight: 300;
     }
 
     .connectAboutUs h1 {
@@ -378,9 +380,9 @@
 
     .content2Container {
         margin: auto !important;
-        height: 70%;
-        width: 60%;
-        top: 30%
+        height: 75%;
+        width: 80%;
+        top: 20%
     }
 
     #small {
@@ -460,7 +462,7 @@
     }
 }
 
-@media screen and (min-width:962px) and (max-width:1025px) {
+@media screen and (min-width:962px) and (max-width:1024px) {
     .connectContainer {
         width: 100%;
         display: flex;
@@ -469,17 +471,19 @@
 
     .connectImg img {
         width: 500px;
-        height: 350px
+        height: 350px;
+        padding: 0 0px 0 50px;
     }
 
     .connectContent2 p {
         padding: 50px 50px 10px 50px;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 300;
     }
 
     .connectbutton2 {
-        height: 30px;
-        width: 65px;
+        height: 40px;
+        width: 75px;
         padding: 0%;
     }
 
@@ -508,12 +512,12 @@
     }
 
     .connectAboutUs p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .connectAboutUs h1 {
         font-weight: 300;
-        font-size: 30px;
+        font-size: 35px;
         padding-bottom: 15px;
     }
 
@@ -524,7 +528,7 @@
     .content2Container {
         margin: auto !important;
         height: 70%;
-        width: 60%;
+        width: 80%;
     }
 
     .connectbutton2 {
@@ -533,7 +537,7 @@
     }
 }
 
-@media screen and (min-width:1026px) and (max-width:1281px) {
+@media screen and (min-width:1025px) and (max-width:1281px) {
     .connectImg img {
         width: 600px;
         height: 450px
@@ -581,8 +585,8 @@
     }
 
     .connectAboutUs h1 {
-        font-weight: 300;
-        font-size: 30px;
+        font-weight: 500;
+        font-size: 40px;
         padding-bottom: 15px;
     }
 
