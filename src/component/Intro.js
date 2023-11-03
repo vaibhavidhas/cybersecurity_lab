@@ -8,10 +8,10 @@ const Intro = () => {
      <header className="mainHeading">
        <div className="mainHeading__content">
          <article className="mainHeading__text">
-           <p className="mainHeading__preTitle">Team 915</p>
-           <h4 className="mainHeading__title">CYBERSECURITY Laboratory </h4>
+           <p className="mainHeading__preTitle" id="first">Team 915</p>
+           <h4 className="mainHeading__title" id="second">CYBERSECURITY Laboratory </h4>
 
-           <p className="mainHeading__preTitle">@ VJTI COE CNDS</p>
+           <p className="mainHeading__preTitle" id="third">@ VJTI COE CNDS</p>
          </article>
          <figure class="mainHeading__image">
            <img src={HeroImage} alt="" />
