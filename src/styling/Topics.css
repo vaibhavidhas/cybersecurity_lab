@@ -82,7 +82,7 @@
  .topicsSubContainer .topicsHexagon .topicsShape .topicsContent {
      width: 100%;
      position: absolute;
-     height: 300px;
+     height: 500px;
      display: flex;
      flex-wrap: wrap;
      align-items: center;
@@ -106,7 +106,17 @@
      opacity: 0;
  }
 
- @media screen and (max-width:500px) {
+ .arrowIcon {
+     position: absolute;
+     right: 0;
+     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+     transition: all ease-in-out 0.3s;
+     animation: textanimate 0.8s alternate infinite;
+     cursor: pointer;
+     color: rgb(147, 1, 1)
+ }
+
+ @media screen and (max-width:320px) {
      .topicsSubContainer .topicsHexagon {
          width: 200px;
          height: 220px;
@@ -118,8 +128,8 @@
 
      .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
 
-         transform: translate(0, -270px)
-     } 
+         transform: translate(0, -500px)
+     }
 
      .topicsSubContainer .topicsHexagon .topicsContent1 {
          font-size: 13px;
@@ -129,12 +139,166 @@
 
  }
 
- .arrowIcon {
-     position: absolute;
-     right: 0;
-     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-     transition: all ease-in-out 0.3s;
-     animation: textanimate 0.8s alternate infinite;
-     cursor: pointer;
-     color: rgb(147, 1, 1)
+ @media screen and (min-width:321px) and (max-width:400px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 250px;
+         height: 270px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 10px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -500px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 15px;
+         padding: 80px 30px;
+     }
+
+
+ }
+
+ @media screen and (min-width:401px) and (max-width:480px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 300px;
+         height: 320px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 12px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -450px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 18px;
+         padding: 90px 40px;
+     }
+
+
+ }
+
+ @media screen and (min-width:481px) and (max-width:600px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 350px;
+         height: 370px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 14px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -400px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 20px;
+         padding: 100px 50px;
+     }
+
+
+ }
+
+ @media screen and (min-width:601px) and (max-width:768px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 300px;
+         height: 320px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 12px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -450px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 18px;
+         padding: 100px 50px;
+     }
+
+
+ }
+
+ @media screen and (min-width:769px) and (max-width:960px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 300px;
+         height: 320px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 12px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -450px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 18px;
+         padding: 100px 50px;
+     }
+
+
+ }
+
+ @media screen and (min-width:962px) and (max-width:1024px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 350px;
+         height: 370px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 14px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -400px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 20px;
+         padding: 100px 50px;
+     }
+
+
+ }
+
+ @media screen and (min-width:1025px) and (max-width:1281px) {
+     .topicsSubContainer .topicsHexagon {
+         width: 350px;
+         height: 370px;
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent p {
+         font-size: 14px;
+     }
+
+     .topicsSubContainer .topicsHexagon:hover .topicsShape .topicsContent {
+
+         transform: translate(0, -400px)
+     }
+
+     .topicsSubContainer .topicsHexagon .topicsContent1 {
+         font-size: 20px;
+         padding: 100px 50px;
+     }
+
+
+     .topicsSubContainer .topicsHexagon .topicsShape .topicsContent {
+         height: 500px;
+     }
  }
