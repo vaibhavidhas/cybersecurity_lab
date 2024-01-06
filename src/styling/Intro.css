@@ -173,24 +173,33 @@
 
 @media (max-width: 320px) {
     .IntroContainer {
-            height: 550px;
-        }
+        height: 400px;
+    }
+
     .mainHeading {
         width: 400px;
-        height: 100%;
-        padding: 40px 20px ;
-        margin:0
+        height: 350px;
+        padding: 40px 20px;
     }
-        .mainHeading__content {
-          max-width:500px;
-            min-height: 600px;
-           
-            transform: translateX(-50%);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-        }
+
+    .mainHeading__content {
+        max-width: 500px;
+        min-height: 600px;
+    }
+
+    .mainHeading__image {
+   
+       top:-50px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .mainHeading__text {
+        padding: 50px;
+        max-width: 620px;
+        margin-top: 100px;
+        width: 65%;
+    }
 }
 
 @media (min-width:321) and (max-width: 480px) {}
