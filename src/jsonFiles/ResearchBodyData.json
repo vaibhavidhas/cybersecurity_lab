@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "ICS/SCADA/OT & IIoT Security",
+    "imageSrc": "ResearchImage1.jpeg",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Critical Energy Infrastructure (system studies & cyber security) ",
+    "imageSrc": "ResearchImage2.jpeg",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Smart Metering, WAMPAC, Substation Automation, Teleprotection",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+
+  {
+    "id": 4,
+    "title": "Embedded & Hardware Security (Power analysis, Side channel attacks)",
+    "imageSrc": "ResearchImage4.jpeg",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "OT Protocol Fuzzing, VAPT, Malware Analysis & Reverse Engineering",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "title": "IDS, Deception, SoC & SIEM for OT Environment ",
+    "imageSrc": "ResearchImage6.jpeg",
+    "link": ""
+  },
+  {
+    "id": 7,
+    "title": "Modeling & Analysis of Complex Power Grid as a Cyber-Physical System",
+    "imageSrc": "ResearchImage5.jpeg",
+    "link": ""
+  },
+  {
+    "id": 8,
+    "title": "Modeling & PIC Based Simulations of Relativistic Nonlinear Phenomenon in Magnetron",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 9,
+    "title": "Bifurcation Analysis of Cascade Failures in Power Grid: Northern Grid Blackout Case Study",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 10,
+    "title": "A System Theoretic Approach for Modeling and Sequencing the Execution of Component Models for Adapting Parallel Processing in Complex Process Simulation Tool",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 11,
+    "title": "Probabilistic Analysis of Cascade Failures",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 12,
+    "title": "Deposition of High k Dielectric Thin Films Using Non-linear Dynamic Gaseous Plasma",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 13,
+    "title": "Passivity-based Control of Under-actuated Non-linear Dynamical Systems",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 14,
+    "title": "Synchronization Control of Nonlinear Heterogeneous Systems & Hybrid Energy Management Systems",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 15,
+    "title": "Development of Non-linear Control Law using Multilevel SVM for Suppressing Inverter Non-linear Distortions with Low Harmonics",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  },
+  {
+    "id": 16,
+    "title": "Development of Experimental UWB Systems",
+    "imageSrc": "cardImg.jpeg",
+    "link": ""
+  }
+]
