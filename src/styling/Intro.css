@@ -12,13 +12,14 @@
 
 .mainHeading__content {
     max-width: 1110px;
-    min-height: 600px;
+    height: 600px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin:0
 }
 
 .mainHeading__text {
