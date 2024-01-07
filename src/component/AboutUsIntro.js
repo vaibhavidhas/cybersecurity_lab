@@ -1,14 +1,20 @@
 import React from "react";
 import "../styling/AboutUsIntro.css";
 import AboutUsIntroImage from "../assets/AboutUsIntroImage.png";
+import honeycombData from "../jsonFiles/CollaborationsData.json";
 
 const AboutUsIntro = () => {
   return (
     <div>
       <div
         className="AboutUsIntroContainer"
-        style={{ backgroundImage: `url(${AboutUsIntroImage})` }}
+        // style={{ backgroundImage: `url(${AboutUsIntroImage})`,height:"100%" }}
       >
+        <img
+          className="AboutUsIntroImg"
+          src={AboutUsIntroImage}
+          alt="cybersecurity images"
+        />
         <div className="AboutUsIntroContainerOverlay">
           <div className="AboutUsIntroContent">
             <div className="AboutUsIntroContent1">
@@ -34,7 +40,6 @@ const AboutUsIntro = () => {
       </div>
       <div className="AboutUsIntroContent2">
         <div className="talkbubbleContainer">
-
           <div className="talkbubble">
             <p>
               Centre of Excellence (CoE) was established under World Bank
@@ -49,17 +54,35 @@ const AboutUsIntro = () => {
             </p>
           </div>
           <div className="talkbubble">
-            <p >
+            <p>
               Industry support- Emerson, Siemens, L&T, CISCO, Claroty, Schneider
             </p>
           </div>
           <div className="talkbubble">
-            <p>
-              Theme- CPS Application Domains- Critical Infrastructure
-            </p>
+            <p>Theme- CPS Application Domains- Critical Infrastructure</p>
           </div>
-          
         </div>
+      </div>
+
+      <div className="collaborationsContainer">
+        <ul className="honeycomb" lang="es">
+          {honeycombData.map((item, index) => (
+            <li key={index} className="honeycomb-cell">
+              <img
+                className="honeycomb-cell__image"
+                src={item.imageUrl}
+                alt="Indian Flag"
+              />
+              <div className="honeycomb-cell__title">
+                {item.title}
+                <div className="honeycomb-cell__subtitle">
+                  {item.subtitle}
+                </div>{" "}
+              </div>
+            </li>
+          ))}
+          <li className="honeycomb-cell honeycomb__placeholder"></li>
+        </ul>
       </div>
     </div>
   );

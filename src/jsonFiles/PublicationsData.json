@@ -1,33 +1,39 @@
 [
     {
         "year": "2023",
+        "discovery": "Dark Web Content Classification Using Quantum Encoding",
+        "scientist": "The proposed work presented a quantum encoding–based approach to categorizing Tor hidden services. First, the dark web crawler crawled the Tor dark web to fetch hidden services.",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:uJ-U7cs_P_0C"
+    },
+    {
+        "year": "2023",
         "discovery": "Deep Reinforcement Learning Based Transferable EMS for Hybrid Electric Trains",
-        "scientist": "Y WANKHEDE, S Rana, F Kazi Majlesi Journal of Electrical Engineering"
+        "scientist": "propose low-budget FCHETs that prioritize energy efficiency to reduce operating costs and minimize their impact on the environment. To this end, an energy management strategy [EMS] has been developed that optimizes the distribution of energy to reduce the amount of hydrogen required to power the train. ",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:-_dYPAW6P2MC"
     },
     {
-        "year": "1785",
-        "discovery": "Law of electrostatic attraction",
-        "scientist": "Coulomb"
+        "year": "2023",
+        "discovery": "Deep fake video detection using transfer learning approach",
+        "scientist": "A novel framework to detect fake videos through the utilization of transfer learning in autoencoders and a hybrid model of convolutional neural networks (CNN) and Recurrent neural networks (RNN).",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:Fu2w8maKXqMC"
     },
     {
-        "year": "1827",
-        "discovery": "Law of Electric Resistance",
-        "scientist": "G.S Ohm"
+        "year": "2023",
+        "discovery": "DEEPFAKE CLI: Accelerated Deepfake Detection Using FPGAs",
+        "scientist": "A novel DEEPFAKE CLI (Classification-Localization-Inference) in which we have explored the idea of accelerating Quantized Deepfake Detection Models using FPGAs due to their ability of maximum parallelism and energy efficiency compared to generalized GPUs. ",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:evX43VCCuoAC"
     },
     {
-        "year": "1831",
-        "discovery": "Electromagnetic Induction",
-        "scientist": "Michael Faraday"
+        "year": "2023",
+        "discovery": "Deep-fake video detection approaches using convolutional–recurrent neural networks",
+        "scientist": "This paper presents the comparative study of different deep neural networks employed for Deep-Fake video detection. The features from the training data are extracted with the intended Convolution Neural Network model to form feature vectors which are further analysed using a dense layer, a Long Short-Term Memory and Gated Recurrent by adopting transfer learning with fine tuning for training the models. ",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:N5tVd3kTz84C"
     },
     {
-        "year": "1867",
-        "discovery": "Dynamite",
-        "scientist": "Alfred Nobel"
-    },
-    {
-        "year": "1895",
-        "discovery": "X Rays",
-        "scientist": "Roentgen"
+        "year": "2023",
+        "discovery": "BLE Protocol in IoT Devices and Smart Wearable Devices: Security and Privacy Threats",
+        "scientist": "The study evaluates different exploitation scenarios Denial of Service (DoS), Elevation of privilege, Information disclosure, spoofing, Tampering, and repudiation on MI Band, One plus Band, Boat Storm smartwatch, and Fire Bolt Invincible.",
+        "link":"https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=oa7QCAgAAAAJ&sortby=pubdate&citation_for_view=oa7QCAgAAAAJ:tKAzc9rXhukC"
     },
     {
         "year": "1897",
