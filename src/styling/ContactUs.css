@@ -33,7 +33,7 @@
     background-color: rgba(13, 36, 150, 0.8);
     margin-left: 40px;
     position: absolute;
-    top: 200px;
+    top: 300px;
     animation-name: slideIn;
     animation-duration: 2s;
 }
@@ -160,7 +160,7 @@
 
 .contactForm {
     position: absolute;
-    top: 70px;
+    top: 200px;
     left: 210px;
     margin: 0 !important;
     height: 100%;

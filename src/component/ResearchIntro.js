@@ -32,6 +32,18 @@ const ResearchIntro = () => {
             <p>Research Facilities</p>
           </div>
         </div>
+        <div className="waviy">
+          <span style={{ "--i": 1 }}>R</span>
+          <span style={{ "--i": 2 }}>E</span>
+          <span style={{ "--i": 3 }}>S</span>
+          <span style={{ "--i": 4 }}>E</span>
+          <span style={{ "--i": 5 }}>A</span>
+          <span style={{ "--i": 6 }}>R</span>
+          <span style={{ "--i": 7 }}>C</span>
+          <span style={{ "--i": 8 }}>H</span>
+        </div>
+        <div className="hexagon2"></div>
+        <div className="hexagon3"></div>
 
         <div className="subContainer1">
           <div className="hexagon1">
@@ -46,10 +58,10 @@ const ResearchIntro = () => {
                 pagination={{
                   clickable: true,
                 }}
-                navigation={{
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
-                }}
+                // navigation={{
+                //   nextEl: ".swiper-button-next",
+                //   prevEl: ".swiper-button-prev",
+                // }}
                 modules={[Autoplay, Navigation]}
                 className="mySwiper"
               >
@@ -78,25 +90,6 @@ const ResearchIntro = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div
-        className="reserachContent1"
-        // style={{ backgroundImage: `url(${researchImage2})` }}
-      >
-        <h3>Research Theme: CPS, Industry 4.0 & IoT</h3>
-        <p>
-          The phrase ‘cyber-physical systems’ was coined in 2006 by Helen Gill
-          of the US National Science Foundation (NSF) Cyber–physical systems
-          (CPSs) are the next generation of engineered systems in which control,
-          computing and communication (C3) technologies are tightly integrated
-          to achieve stability, performance, reliability, robustness, and
-          efficiency in dealing with physical systems of many application
-          domains.
-        </p>
-        <p>
-          Application domains: Energy, Manufacturing, Water & Waste Water,
-          Refinery & Petrochemicals, Oil& Gas, Transportation, Healthcare etc
-        </p>
       </div>
     </div>
   );

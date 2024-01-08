@@ -1,216 +1,672 @@
- .aboutIntroContainer {
-     background-color: white;
-     height: 510px;
- }
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
- .reserachContent1 {
-     position: absolute;
-     top: 300px;
-     width: 500px;
-     padding: 20px;
-     right: 0;
-     text-align: center;
+.waviy {
+    position: absolute;
+}
 
- }
+.waviy span {
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+    font-family: 'Tektur', cursive;
+}
 
- .reserachContent1 h3 {
-     color: rgb(255, 255, 255);
-     background-color: rgba(108, 0, 0, 1);
-     font-weight: 400;
-     padding: 0px 10px;
- }
+@keyframes flip {
 
- .reserachContent1 p {
-     color: black;
-     font-size: 12px;
-     padding: 10px;
-     text-align: left !important;
- }
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
 
- .BkgImg3 {
-     width: 100%;
-     height: 100%;
-     background-size: cover;
-     background-position: center;
-     object-fit: cover;
+.aboutIntroContainer {
+    height: 700px
+}
 
-     background-attachment: fixed;
- }
+.reserachContent1 {
+    position: absolute;
+    top: 300px;
+    width: 500px;
+    padding: 20px;
+    right: 0;
+    text-align: center;
+}
 
- .aboutIntroHero {
-     height: 100%;
-     width: 100%;
- }
+.reserachContent1 h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(108, 0, 0, 1);
+    font-weight: 400;
+    padding: 0px 10px;
+}
 
- .subContainer1 {
-     position: absolute;
-     top: 150px;
-     left: 70px;
- }
+.BkgImg3 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-attachment: fixed;
+}
 
- .hexagon1 {
-     position: absolute;
-     width: 320px;
-     height: 325px;
-     background-color: rgb(9, 34, 133);
-     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
- }
+.aboutIntroHero {
+    height: 100%;
+    width: 100%;
+}
 
- .slider {
-     overflow: hidden;
-     width: 300px;
-     height: 200px;
-     margin: 0 auto;
-     position: relative;
- }
+.subContainer1 {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
 
- .pointer {
-     width: 450px;
-     height: 400px;
-     position: absolute;
-     right: 0;
-     top: 70px;
-     opacity: 0.9;
- }
+.hexagon2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 0, 0, 0.7);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    top: 100px
+}
 
- .aboutIntroContent {
-     display: flex;
-     padding: 30px;
-     justify-content: center;
-     text-align: center;
-     padding: 100px 50px;
- }
+.hexagon3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255, 0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    top: 200px;
+    z-index: 200;
+}
 
- .aboutIntroContent p {
-     font-size: 10px;;
-     font-weight: 400;
- }
+.hexagon1 {
+    position: absolute;
+    width: 320px;
+    height: 325px;
+    background-color: rgb(9, 34, 133);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 
- h4 {
-     color: black;
- }
+.slider {
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
 
- .pointer1 {
-     height: 50px;
-     margin: 10px;
-     position: relative;
-     clip-path: polygon(100% 0%, 93% 50%, 100% 100%, 25% 100%, 18% 52%, 25% 0%);
-     transition-duration: 2s;
-     transition-timing-function: linear;
-     transition-delay: 1s;
-     background: rgb(9, 34, 133);
-     text-align: center;
-     animation-name: textSlide;
-     animation-duration: 2s;
- }
+.pointer {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    opacity: 0.9;
+}
 
- .pointer1 p {
-     position: relative;
-     padding: 10px;
-     font-size: 17px;
-     font-weight: 400;
- }
+.aboutIntroContent {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 50px;
+}
 
- .pointer1:nth-child(1) {
-     animation-delay: 0.0s;
- }
+.aboutIntroContent p {
+    font-size: 10px;
+    font-weight: 400;
+}
 
- .pointer1:nth-child(2) {
-     animation-delay: 0.5s;
- }
+h4 {
+    color: black;
+}
 
- .pointer1:nth-child(3) {
-     animation-delay: 1.0s;
- }
+.pointer1 {
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    clip-path: polygon(100% 0%, 93% 50%, 100% 100%, 25% 100%, 18% 52%, 25% 0%);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    background: rgb(9, 34, 133);
+    text-align: center;
+    animation-name: textSlide;
+    animation-duration: 2s;
+}
 
- @keyframes textSlide {
-     from {
-         opacity: 0;
-         right: -100%
-     }
+.pointer1 p {
+    position: relative;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
 
-     to {
-         opacity: 1;
-         right: 0%
-     }
- }
+.pointer1:nth-child(1) {
+    animation-delay: 0.0s;
+}
 
- @media screen and (max-width:500px) {
+.pointer1:nth-child(2) {
+    animation-delay: 0.5s;
+}
 
-     .BkgImg3 {
-         width: 100%;
-         height: 100vh;
-         background-size: cover;
-         background-position: center;
-         object-fit: cover;
-     }
+.pointer1:nth-child(3) {
+    animation-delay: 1.0s;
+}
 
-     .pointer {
-         width: 350px;
-         height: 100px;
-         top: 70px;
-     }
+@keyframes textSlide {
+    from {
+        opacity: 0;
+        right: -100%
+    }
 
-     .pointer1 {
-         height: 50px;
-     }
+    to {
+        opacity: 1;
+        right: 0%
+    }
+}
 
-     .hexagon1 {
-         height: 250px;
-         width: 230px;
-         top: 150px;
-     }
+.swiper-button-prev,
+.swiper-button-next {
 
-     .subContainer1 {
-         left: 0px
-     }
+    position: relative;
+    padding: 10px;
+    font-size: 15px !important;
+    color: #fff !important;
+    --swiper-navigation-size: 10px;
+    opacity: 0;
 
-          .aboutIntroContainer {
-              background-color: white;
-              height: 750px;
-          }
+}
 
-                  .reserachContent1 {
-                      position: absolute;
-                      top: 550px;
-                      width: 500px;
-                      padding: 30px;
-                    
-                      text-align: center;
-        
-                  }
- }
+.hexagon1:hover .swiper-button-prev,
+.hexagon1:hover .swiper-button-next {
+    opacity: 1;
+}
 
- .swiper-button-prev,
- .swiper-button-next {
+.swiper-button-prev {
+    left: 20px;
+    top: 100px;
+    color: #fff !important;
+    z-index: 10;
+}
 
-     position: absolute;
-     padding: 10px;
-     font-size: 15px !important;
-     color: #fff !important;
-     --swiper-navigation-size: 10px;
-     opacity: 0;
+.swiper-button-next {
+    right: 0px;
+    top: 150px;
+}
 
- }
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: rgb(109, 5, 5);
+}
 
- .hexagon1:hover .swiper-button-prev,
- .hexagon1:hover .swiper-button-next {
-     opacity: 1;
- }
+@media screen and (max-width:320px) {
+    .pointer {
+        width: 180px;
+        height: 250px;
+        top: 70px;
+    }
 
- .swiper-button-prev {
-     left: 20px;
-     top: 100px;
-     color: #fff !important;
-     z-index: 10;
- }
+    .pointer1 {
+        height: 25px;
+    }
 
- .swiper-button-next {
-     right: 0px;
-     top: 150px;
- }
+    .pointer1 p {
+        font-size: 8px;
+        font-family: 300px;
+    }
 
- .swiper-button-prev:hover,
- .swiper-button-next:hover {
-     color: rgb(109, 5, 5);
- }
+    .hexagon1 {
+        height: 180px;
+        width: 180px;
+        top: 100px;
+        left: 10px;
+    }
+
+    .hexagon2 {
+        width: 100px;
+        height: 100px;
+        top: 400px;
+        left: 170px
+    }
+
+    .hexagon3 {
+        width: 50px;
+        height: 50px;
+        top: 220px;
+        left: 150px;
+    }
+
+    .aboutIntroContent {
+        padding: 50px 30px;
+    }
+
+    .swiper {
+        font-size: 12px;
+        font-weight: 350;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 350px;
+        left: 200px;
+    }
+
+    .waviy span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:480px) {
+    .aboutIntroContainer {
+        height: 530px
+    }
+
+    .BkgImg3 {
+        height: 530px
+    }
+
+    .pointer {
+        width: calc(100vw - 150px);
+        height: 300px;
+        top: 60px;
+    }
+
+    .pointer1 {
+        height: calc(85vh - 320px);
+    }
+
+    .pointer1 p {
+        font-size: 10px;
+        font-family: 350px;
+    }
+
+    .hexagon1 {
+        height: 210px;
+        width: 210px;
+        top: 80px;
+        left: 20px;
+    }
+
+    .hexagon2 {
+        width: 110px;
+        height: 110px;
+        top: 400px;
+        left: 190px
+    }
+
+    .hexagon3 {
+        width: 60px;
+        height: 60px;
+        top: 200px;
+        left: 170px;
+    }
+
+    .aboutIntroContent {
+        padding: 50px 30px;
+    }
+
+    .swiper {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 300px;
+        left: 250px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 18px);
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:600px) {
+    .BkgImg3 {
+        height: 600px
+    }
+
+    .aboutIntroContainer {
+        height: 600px
+    }
+
+
+    .pointer {
+        width: calc(100vw - 220px);
+        height: 300px;
+        top: 70px;
+    }
+
+    .pointer1 {
+        height: calc(85vh - 320px);
+    }
+
+    .pointer1 p {
+        font-size: 15px;
+        font-family: 400px;
+    }
+
+    .hexagon1 {
+        height: 250px;
+        width: 250px;
+        top: 100px;
+        left: 30px;
+    }
+
+    .hexagon2 {
+        width: 130px;
+        height: 130px;
+        top: 450px;
+        left: 240px
+    }
+
+    .hexagon3 {
+        width: 65px;
+        height: 65px;
+        top: 230px;
+        left: 230px;
+    }
+
+    .aboutIntroContent {
+        padding: 70px 30px;
+    }
+
+    .swiper {
+        font-size: 16px;
+        font-weight: 450;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 350px;
+        left: 300px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 20px);
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .BkgImg3 {
+        height: 700px
+    }
+
+    .aboutIntroContainer {
+        height: 700px
+    }
+
+    .pointer {
+        width: calc(100vw - 320px);
+        height: 400px;
+        top: 80px;
+    }
+
+    .pointer1 {
+        height: calc(85vh - 310px);
+    }
+
+    .pointer1 p {
+        font-size: 15px;
+        font-family: 450px;
+    }
+
+    .hexagon1 {
+        height: 300px;
+        width: 300px;
+        top: 150px;
+        left: 40px;
+    }
+
+    .hexagon2 {
+        width: 150px;
+        height: 150px;
+        top: 550px;
+        left: 280px
+    }
+
+    .hexagon3 {
+        width: 75px;
+        height: 75px;
+        top: 280px;
+        left: 280px;
+    }
+
+    .aboutIntroContent {
+        padding: 100px 40px;
+    }
+
+    .swiper {
+        font-size: 19px;
+        font-weight: 450;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 400px;
+        left: 350px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 24px);
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:960px) {
+    .BkgImg3 {
+        height: 800px
+    }
+
+    .aboutIntroContainer {
+        height: 800px
+    }
+
+    .pointer {
+        width: calc(100vw - 400px);
+        height: 500px;
+        top: 90px;
+    }
+
+    .pointer1 {
+        height: calc(85vh - 300px);
+    }
+
+    .pointer1 p {
+        font-size: 18px;
+        font-family: 500px;
+    }
+
+    .hexagon1 {
+        height: 350px;
+        width: 350px;
+        top: 200px;
+        left: 50px;
+    }
+
+    .hexagon2 {
+        width: 160px;
+        height: 160px;
+        top: 640px;
+        left: 350px
+    }
+
+    .hexagon3 {
+        width: 85px;
+        height: 85px;
+        top: 330px;
+        left: 350px;
+    }
+
+    .aboutIntroContent {
+        padding: 120px 50px;
+    }
+
+    .swiper {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 500px;
+        left: 450px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 28px);
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1024px) {
+    .BkgImg3 {
+        height: 1000px
+    }
+
+    .aboutIntroContainer {
+        height: 1000px
+    }
+
+    .pointer {
+        width: calc(100vw - 550px);
+        height: 600px;
+        top: 120px
+    }
+
+    .pointer1 {
+        height: calc(85vh - 400px);
+    }
+
+    .pointer1 p {
+        font-size: 20px;
+        font-family: 550px;
+    }
+
+    .hexagon1 {
+        height: 400px;
+        width: 400px;
+        top: 250px;
+        left: 60px;
+    }
+
+    .hexagon2 {
+        width: 165px;
+        height: 165px;
+        top: 730px;
+        left: 400px
+    }
+
+    .hexagon3 {
+        width: 90px;
+        height: 90px;
+        top: 400px;
+        left: 420px;
+    }
+
+    .aboutIntroContent {
+        padding: 120px 60px;
+    }
+
+    .swiper {
+        font-size: 28px;
+        font-weight: 550;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 550px;
+        left: 500px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 30px);
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1281px) {
+    .BkgImg3 {
+        height: 800px
+    }
+
+    .aboutIntroContainer {
+        height: 800px
+    }
+
+    .pointer {
+        width: calc(100vw - 600px);
+        height: 600px;
+        top: 120px;
+    }
+
+    .pointer1 {
+        height: calc(85vh - 420px);
+    }
+
+    .pointer1 p {
+        font-size: 24px;
+        font-family: 600px;
+    }
+
+    .hexagon1 {
+        height: 450px;
+        width: 450px;
+        top: 50px;
+        left: 70px;
+    }
+
+    .hexagon2 {
+        width: 180px;
+        height: 180px;
+        top: 620px;
+        left: 450px
+    }
+
+    .hexagon3 {
+        width: 120px;
+        height: 120px;
+        top: 150px;
+        left: 420px;
+    }
+
+    .aboutIntroContent {
+        padding: 150px 60px;
+    }
+
+    .swiper {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .subContainer1 {
+        left: 0px
+    }
+
+    .waviy {
+        top: 450px;
+        left: 600px;
+    }
+
+    .waviy span {
+        font-size: calc(10vw - 50px);
+    }
+}
