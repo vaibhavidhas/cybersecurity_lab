@@ -11,7 +11,7 @@ const Intro = () => {
            <p className="mainHeading__preTitle" id="first">Team 915</p>
            <h4 className="mainHeading__title" id="second">CYBERSECURITY Laboratory </h4>
 
-           <p className="mainHeading__preTitle" id="third">@ VJTI CE CNDS</p>
+           <p className="mainHeading__preTitle" id="third">@ VJTI CoE CNDS</p>
          </article>
          <figure class="mainHeading__image">
            <img src={HeroImage} alt="" />
