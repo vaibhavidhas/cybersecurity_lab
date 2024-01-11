@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin:0
+    margin: 0
 }
 
 .mainHeading__text {
@@ -63,7 +63,7 @@
 }
 
 .mainHeading__preTitle {
-    text-transform: uppercase;
+
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 16px;
@@ -192,7 +192,6 @@
         color: white;
         font-size: 11px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 400px;
         color: #637498;
         font-weight: 200;
@@ -230,8 +229,13 @@
 }
 
 @media screen and (min-width:321px) and (max-width:400px) {
+
+    .IntroContainer {
+        height: 300px;
+    }
+
     .mainHeading {
-        height: 60%;
+        height: 300px
     }
 
     .mainHeading__image {
@@ -256,7 +260,6 @@
         color: white;
         font-size: 12px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 300px;
         color: #637498;
         font-weight: 300;
@@ -294,8 +297,12 @@
 }
 
 @media screen and (min-width:401px) and (max-width:480px) {
+    .IntroContainer {
+        height: 300px;
+    }
+
     .mainHeading {
-        height: 60%;
+        height: 300px
     }
 
     .mainHeading__image {
@@ -320,7 +327,6 @@
         color: white;
         font-size: 12px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 400px;
         color: #637498;
         font-weight: 200;
@@ -358,8 +364,12 @@
 }
 
 @media screen and (min-width:481px) and (max-width:600px) {
+    .IntroContainer {
+        height: 360px;
+    }
+
     .mainHeading {
-        height: 76%;
+        height: 360px
     }
 
     .mainHeading__image {
@@ -386,7 +396,6 @@
         color: white;
         font-size: 15px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 500px;
         color: #637498;
         font-weight: 200;
@@ -423,8 +432,12 @@
 }
 
 @media screen and (min-width:601px) and (max-width:768px) {
+    .IntroContainer {
+        height: 420px;
+    }
+
     .mainHeading {
-        height: 80%;
+        height: 420px
     }
 
     .mainHeading__image {
@@ -451,7 +464,6 @@
         color: white;
         font-size: 18px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 500px;
         color: #637498;
         font-weight: 200;
@@ -489,8 +501,12 @@
 }
 
 @media screen and (min-width:769px) and (max-width:960px) {
+    .IntroContainer {
+        height: 540px;
+    }
+
     .mainHeading {
-        height: 120%;
+        height: 540px
     }
 
     .mainHeading__image {
@@ -517,7 +533,6 @@
         color: white;
         font-size: 25px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 600px;
         color: #637498;
         font-weight: 500;
@@ -555,8 +570,12 @@
 }
 
 @media screen and (min-width:962px) and (max-width:1024px) {
+    .IntroContainer {
+        height: 660px;
+    }
+
     .mainHeading {
-        height: 1000px;
+        height: 660px
     }
 
     .mainHeading__image {
@@ -583,7 +602,6 @@
         color: white;
         font-size: 27px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 600px;
         color: #637498;
         font-weight: 600;
@@ -621,12 +639,17 @@
 }
 
 @media screen and (min-width:1025px) and (max-width:1281px) {
+
     .IntroContainer {
-        height: 650px;
+        height: 660px;
+    }
+
+    .mainHeading {
+        height: 660px
     }
 
     .mainHeading__image {
-        height: 100%;
+        height: 97%;
         width: 75%;
         right: -6%;
         margin: 0px 50px 50px 0px
@@ -638,7 +661,7 @@
         background-color: rgba(25, 27, 135, 0.5);
         padding: 80px 70px;
         width: 65%;
-        height: 400px;
+        height: 380px;
         left: -30px;
         margin: 150px 30px;
     }
@@ -650,7 +673,7 @@
         text-transform: uppercase;
         font-weight: 900px;
         top: 0%;
-      
+
         position: relative
     }
 
@@ -659,7 +682,6 @@
         color: white;
         font-size: 30px;
         font-family: 'Tektur', cursive;
-        text-transform: uppercase;
         font-weight: 600px;
         color: #637498;
         font-weight: 600;

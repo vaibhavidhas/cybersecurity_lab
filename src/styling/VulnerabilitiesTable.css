@@ -1,6 +1,7 @@
 .tableContainer{
-    position :relative;
-   
+    position :relative; 
+   margin:20px;
+    height:100%
 }
 .tableRows{
     font-family: Arial, Helvetica, sans-serif;

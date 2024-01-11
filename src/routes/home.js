@@ -4,7 +4,7 @@ import Intro from "../component/Intro";
 import Topics from "../component/Topics";
 import ImageSwiper from "../component/ImageSwiper";
 import Connect from "../component/Connect";
-import Contact from "../component/ContactDirect"
+import Footer from "../component/Footer"
 import VulnerabilitiesTable from "../component/VulnerabilitiesTable";
 
 const home = () => {
@@ -16,7 +16,7 @@ const home = () => {
       <Topics />
       <ImageSwiper />
       <Connect />
-      <Contact />
+      <Footer />
     
     
     </div>
